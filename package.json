@@ -1,6 +1,6 @@
 {
   "author": "Theo Ephraim <theozero@gmail.com> (https://theoephraim.com)",
-  "name": "google-spreadsheet",
+  "name": "@InfiniteSolutionsSRL/google-spreadsheet",
   "description": "Google Sheets API (v4) -- simple interface to read/write data and manage sheets",
   "version": "3.2.0",
   "license": "Unlicense",
@@ -16,10 +16,13 @@
     "api",
     "googleapis"
   ],
-  "homepage": "https://github.com/theoephraim/node-google-spreadsheet",
+  "homepage": "https://github.com/InfiniteSolutionsSRL/node-google-spreadsheet",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theoephraim/node-google-spreadsheet.git"
+    "url": "git://github.com/InfiniteSolutionsSRL/node-google-spreadsheet.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "index.js",
   "engines": {
